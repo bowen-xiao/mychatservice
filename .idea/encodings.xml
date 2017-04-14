@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/chat/SocketClientEx1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/chat/SocketServerEx1.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/chat2/Client.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/chat2/Service.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/chatroom/ThreadReader.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/mychat/MoreClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/mychat/MyClient.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/mychat/MySocketService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/ping/PingIps.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/thread2/BoundedBuffer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/thread2/MyThread.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/lib/src/main/java/thread2/ProducerConsumer.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

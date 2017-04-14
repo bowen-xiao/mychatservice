@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/darker_gray">
+
+
+    <!--<widget.bowen.com.widget.MyCanvas
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <!--<widget.bowen.com.widget.MyPie
+        android:id="@+id/mypie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+   <!-- <widget.bowen.com.widget.MyGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </widget.bowen.com.widget.MyGroup>-->
+
+  <!--  <widget.bowen.com.widget.CircleGroup
+        android:layout_centerInParent="true"
+        android:id="@+id/circle_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/circle_bg3">
+
+    </widget.bowen.com.widget.CircleGroup>-->
+
+    <widget.bowen.com.widget.SettingView
+        android:id="@+id/setting1"
+        app:my_background="first"
+        app:my_title="我的设置"
+        app:my_toggle="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <widget.bowen.com.widget.SettingView
+        android:id="@+id/setting2"
+        android:onClick="next"
+        app:my_background="middle"
+        app:my_toggle="false"
+        app:my_title="我的空间"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <widget.bowen.com.widget.SettingView
+        app:my_toggle="false"
+        app:my_background="last"
+        app:my_title="我的动态"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <widget.bowen.com.widget.SettingView
+        app:my_background="first"
+        android:layout_marginTop="20dp"
+        app:my_title="我的设置14"
+        app:my_toggle="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <widget.bowen.com.widget.SettingView
+        app:my_toggle="true"
+        app:my_background="last"
+        app:my_title="我的动态5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

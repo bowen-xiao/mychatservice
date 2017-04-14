@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:elevation="0dp"
+    app:cardCornerRadius="8dp"
+    app:cardMaxElevation="8dp"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/card_view_root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="第一页" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
